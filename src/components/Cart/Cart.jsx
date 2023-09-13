@@ -16,5 +16,7 @@ const Cart = ({ selectedActors, remaining, totalCost }) => {
 };
 Cart.propTypes = {
   selectedActors: PropTypes.array,
+  remaining: PropTypes.number,
+  totalCost: PropTypes.number
 };
 export default Cart;

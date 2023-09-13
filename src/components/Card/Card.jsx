@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import { toast } from 'react-toastify';
 const Card = ({ actor, handleToAddActors }) => {
   const { name, image, salary, role } = actor;
   return (
